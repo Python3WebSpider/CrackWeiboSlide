@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f07321-a05e-4f58-8695-50dbaa5a7fdb" name="Default" comment="" />
+    <list default="true" id="b8f07321-a05e-4f58-8695-50dbaa5a7fdb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha.pxm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captcha9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample.pxm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sss.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crack.py" afterPath="$PROJECT_DIR$/crack.py" />
+    </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,14 +77,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="captcha.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captcha.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="crack.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="148" column="59" lean-forward="false" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
+            <state relative-caret-position="201">
+              <caret line="116" column="25" lean-forward="false" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../geetest/crack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="207" column="8" lean-forward="true" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ims.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/ims.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,6 +134,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_pixels</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,10 +158,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1681" />
-    <option name="y" value="-224" />
-    <option name="width" value="1606" />
-    <option name="height" value="1124" />
+    <option name="x" value="-1440" />
+    <option name="y" value="124" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -72,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -84,6 +191,10 @@
               <option name="myItemId" value="weiboslide" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiboSliderCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -95,7 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weiboslide" />
+              <option name="myItemId" value="geetest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -110,21 +221,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="weiboslide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -355,18 +463,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1681" y="-224" width="1606" height="1124" extended-state="0" />
+    <frame x="-1440" y="124" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27427962" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30963856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3401163" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234315" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2879518" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1790831" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -418,6 +527,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/ims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -487,128 +622,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="123" column="88" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/ims.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2778">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left56top96right64bottom104.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left96top56right104bottom64.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left126top76right134bottom84.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left96top96right104bottom104.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left76top26right84bottom34.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left26top76right34bottom84.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left56top56right64bottom64.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left76top76right84bottom84.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left76top126right84bottom134.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest/crack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="116" column="51" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="116" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/left56top96right64bottom104.jpg" />
+    <entry file="file://$PROJECT_DIR$/left96top56right104bottom64.jpg" />
+    <entry file="file://$PROJECT_DIR$/left126top76right134bottom84.jpg" />
+    <entry file="file://$PROJECT_DIR$/left96top96right104bottom104.jpg" />
+    <entry file="file://$PROJECT_DIR$/left76top26right84bottom34.jpg" />
+    <entry file="file://$PROJECT_DIR$/left26top76right34bottom84.jpg" />
+    <entry file="file://$PROJECT_DIR$/left56top56right64bottom64.jpg" />
+    <entry file="file://$PROJECT_DIR$/left76top76right84bottom84.jpg" />
+    <entry file="file://$PROJECT_DIR$/left76top126right84bottom134.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/3.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/6.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/7.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/0.jpg" />
     <entry file="file://$PROJECT_DIR$/sss.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2.jpg" />
     <entry file="file://$PROJECT_DIR$/templates/4213.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/2341.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -658,15 +694,45 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha1.png">
+    <entry file="file://$PROJECT_DIR$/captcha1.png" />
+    <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/ims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2341.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../py/WeiboSliderCode/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geetest/crack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="207" column="8" lean-forward="true" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="148" column="59" lean-forward="false" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
+        <state relative-caret-position="201">
+          <caret line="116" column="25" lean-forward="false" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

@@ -3,25 +3,17 @@ import time
 from io import BytesIO
 from PIL import Image
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from os import listdir
 
 USERNAME = '15874295385'
 PASSWORD = 'fpdpvx119'
 
-DETECT_POSITION_CENTERS = [
-    # 横竖线
-    (30, 80), (80, 130), (130, 80), (80, 30),
-    # 斜线
-    (60, 60), (60, 100), (100, 100), (100, 60),
-    # 中心
-    (80, 80)
-]
-DETECT_RADIUS = 4
-
-FILTER_THRESHOLD = 35
+TEMPLATES_FOLDER = 'templates/'
 
 
 class CrackWeiboSlide():
@@ -53,7 +45,11 @@ class CrackWeiboSlide():
         获取验证码位置
         :return: 验证码位置元组
         """
-        img = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'patt-shadow')))
+        try:
+            img = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'patt-shadow')))
+        except TimeoutException:
+            print('未出现验证码')
+            self.open()
         time.sleep(2)
         location = img.location
         size = img.size
@@ -101,52 +97,87 @@ class CrackWeiboSlide():
         else:
             return False
     
-    def same_pixels_count(self, template, image):
+    def same_image(self, image, template):
+        """
+        识别相似验证码
+        :param image: 待识别验证码
+        :param template: 模板
+        :return:
+        """
+        # 相似度阈值
+        threshold = 0.99
         count = 0
         for x in range(image.width):
             for y in range(image.height):
-                if self.is_pixel_equal(template, image, x, y):
+                # 判断像素是否相同
+                if self.is_pixel_equal(image, template, x, y):
                     count += 1
-        return count
-    
-    def same_pixels_counts(self, image):
-        result = []
-        for i in range(8):
-            template = Image.open('templates/' + str(i) + '.jpg')
-            count = self.same_pixels_count(template, image)
-            result.append(count)
-        print('Result', result)
-    
-    def detect_center(self, image, center):
-        left, right = center[0] - DETECT_RADIUS, center[0] + DETECT_RADIUS
-        top, bottom = center[1] - DETECT_RADIUS, center[1] + DETECT_RADIUS
-        print(left, right, top, bottom)
-        
-        target = image.crop((left, top, right, bottom))
-        if not os.path.exists('sss.jpg'):
-            target.save('sss.jpg')
-        target.show()
-        counts = self.same_pixels_counts(target)
-        
-        return counts
+        result = float(count) / (image.width * image.height)
+        if result > threshold:
+            print('成功匹配')
+            return True
+        return False
     
     def detect_image(self, image):
-        result = []
-        dark_index = []
-        for index, center in enumerate(DETECT_POSITION_CENTERS):
-            line_counts = self.detect_center(image, center)
+        """
+        匹配图片
+        :param image: 图片
+        :return: 拖动顺序
+        """
+        for template_name in listdir(TEMPLATES_FOLDER):
+            print('正在匹配', template_name)
+            template = Image.open(TEMPLATES_FOLDER + template_name)
+            if self.same_image(image, template):
+                # 返回顺序
+                numbers = [int(number) for number in list(template_name.split('.')[0])]
+                print('拖动顺序', numbers)
+                return numbers
     
-    def get_pixels(self, image):
-        pixels = image.load()
-        print(pixels)
+    def move(self, numbers):
+        """
+        根据顺序拖动
+        :param numbers:
+        :return:
+        """
+        # 获得四个按点
+        circles = self.browser.find_elements_by_css_selector('.patt-wrap .patt-circ')
+        dx = dy = 0
+        for index in range(4):
+            circle = circles[numbers[index] - 1]
+            # 如果是第一次循环
+            if index == 0:
+                # 点击第一个按点
+                ActionChains(self.browser) \
+                    .move_to_element_with_offset(circle, circle.size['width'] / 2, circle.size['height'] / 2) \
+                    .click_and_hold().perform()
+            else:
+                # 小幅移动次数
+                times = 30
+                # 拖动
+                for i in range(times):
+                    ActionChains(self.browser).move_by_offset(dx / times, dy / times).perform()
+                    time.sleep(1 / times)
+            # 如果是最后一次循环
+            if index == 3:
+                # 松开鼠标
+                ActionChains(self.browser).release().perform()
+            else:
+                # 计算下一次偏移
+                dx = circles[numbers[index + 1] - 1].location['x'] - circle.location['x']
+                dy = circles[numbers[index + 1] - 1].location['y'] - circle.location['y']
     
     def crack(self):
+        """
+        破解入口
+        :return:
+        """
         self.open()
-        count += 1
         # 获取验证码图片
-        image = self.get_image('captcha' + str(count) + '.png')
-        # image = Image.open('captcha1.png')
-        # self.crop_image(image)
+        image = self.get_image('captcha.png')
+        numbers = self.detect_image(image)
+        self.move(numbers)
+        time.sleep(10)
+        print('识别结束')
 
 
 if __name__ == '__main__':
