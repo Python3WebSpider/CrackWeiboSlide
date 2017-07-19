@@ -130,7 +130,7 @@ class CrackWeiboSlide():
         
         return counts
     
-    def crop_image(self, image):
+    def detect_image(self, image):
         result = []
         dark_index = []
         for index, center in enumerate(DETECT_POSITION_CENTERS):
@@ -142,10 +142,11 @@ class CrackWeiboSlide():
     
     def crack(self):
         self.open()
+        count += 1
         # 获取验证码图片
-        image = self.get_image('captcha1.png')
+        image = self.get_image('captcha' + str(count) + '.png')
         # image = Image.open('captcha1.png')
-        self.crop_image(image)
+        # self.crop_image(image)
 
 
 if __name__ == '__main__':
