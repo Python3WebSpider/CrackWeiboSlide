@@ -10,8 +10,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from os import listdir
 
-# USERNAME = '15874295385'
-# PASSWORD = 'fpdpvx119'
 USERNAME = '13471352284'
 PASSWORD = 'Wfeii7827'
 
