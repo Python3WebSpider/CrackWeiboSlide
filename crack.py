@@ -10,10 +10,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from os import listdir
 
-USERNAME = '15874295385'
-PASSWORD = 'fpdpvx119'
+USERNAME = '13471352284'
+PASSWORD = 'Wfeii7827'
 
-TEMPLATES_FOLDER = 'templates/'
+# 若设别为Retina屏，则切换使用的模板目录
+# Retina屏自动将截图分辨率放大，需进行特殊处理
+RETINA = True
+TEMPLATES_FOLDER = 'templates_retina/' if RETINA else 'templates'
 
 
 class CrackWeiboSlide():
@@ -74,7 +77,11 @@ class CrackWeiboSlide():
         top, bottom, left, right = self.get_position()
         print('验证码位置', top, bottom, left, right)
         screenshot = self.get_screenshot()
-        captcha = screenshot.crop((left, top, right, bottom))
+        if RETINA:
+            captcha = screenshot.crop((2 * left, 2 * top, 2 * right, 2 * bottom))
+            captcha = captcha.resize((right - left, bottom - top), Image.ANTIALIAS)
+        else:
+            captcha = screenshot.crop((left, top, right, bottom))
         captcha.save(name)
         return captcha
     
